@@ -1,0 +1,126 @@
+*{
+padding: 0;
+}
+
+body{
+    background-color: bisque;
+}
+
+header{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;      
+    
+}
+
+.sessao1{
+    padding: 15rem;
+    background-image: url(imagens/img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sessao1 h1{
+color: azure;
+font-size: 4rem;
+text-align: center;
+}
+
+.sessao1 p{
+color: azure;
+font-size: 1.3rem;
+text-align: center;
+}
+
+.sessao1 hr{
+    font-size: 2px;
+}
+
+.sessao2{
+    padding: 8rem;
+    display: flex;
+    background-color: aliceblue;
+    justify-content: space-evenly;
+}
+
+.img1{
+    height: 25rem;
+    width: 20rem;
+    background-image: url(imagens/sunset-3816247_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+}
+
+.img1 p{
+    color: azure;
+    text-align: center;
+    margin-top: 250px;
+    padding: 0.5rem;
+}
+
+.img2{
+    height: 25rem;
+    width: 20rem;
+    background-image: url(imagens/sunset-8283538_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+}
+
+.img2 p{
+    color: azure;
+    text-align: center;
+    margin-top: 250px;
+    padding: 0.5rem;
+}
+
+.img3{
+    height: 25rem;
+    width: 20rem;
+    background-image: url(imagens/sunset-6344387_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+}
+
+.img3 p{
+    color: azure;
+    text-align: center;
+    margin-top: 250px;
+    padding: 0.5rem;
+}
+
+.sessao3{
+    padding: 5rem;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sessao3 div img{
+    background-repeat: no-repeat;
+    width: 30rem;
+    justify-content: space-between;
+
+}
+
+.sessao3 p{
+    text-align: end;
+}
+
+.sessao4{
+    padding: 4.5rem;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
