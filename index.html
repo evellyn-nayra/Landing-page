@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/9e1674f732.js" crossorigin="anonymous"></script>
         <title>Document</title>
     </head>
     <body>
@@ -13,20 +14,28 @@
             </div>
 
             <div>
-                <nav>
-                    <ul>
-                        <a href><li>About</li></a>
-                        <a href><li>Articles</li></a>
-                        <a href><li>Subscribe</li></a>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+                <div id="navegacao">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="">ABOUT</a>
+                            </li>
+        
+                            <li>
+                                <a href="">ARTICLES</a>
+                            </li>
+                        </ul>
+                        <a href="">
+                            <button>SUBSCRIBE</button>
+                        </a>
+                    </nav>
+                </div>
+            </header>
 
         <section class="sessao1">
             <h1>LOMBOK</h1>
             <p>HOLISTIC HEALTH</p>
-            <hr>
+            <hr class="line">
         </section>
         
         <section class="sessao2">
@@ -52,22 +61,59 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt et illum error consequuntur deserunt aliquam quos nemo architecto ea quis. Quaerat ipsa sint repellat laboriosam numquam veritatis distinctio facilis ut.</p>
         </section>
 
-        <section class="sessao4">
-            <h2>SUBSCRIBE</h2>
-            <p>sign-up</p>
-            <input type="text" placeholder="texto aqui">
-            <button>SUBSCRIBE</button>
+        <section id="sessao4">
+            <div>
+                <h2>SUBSCRIBE</h2>
+                <p>Sing-up to our newsletter</p>
+                <form>
+                    <label for="email"></label>
+                    <input type="email" placeholder="Your email" id="email"><br> <br>
+
+                    <input type="submit" value="SUBMIT" id="botao">
+                </form>
+            </div>
         </section>
 
         <footer>
-            <div>icones</div>
-            <div>
+            <div id="divIcon">
                 <nav>
                     <ul>
-                        <a href><li>About</li></a>
-                        <a href><li>Articles</li></a>
+                        <li>
+                            <a href="">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
                     </ul>
-                    <button>SUBSCRIBE</button>
+                </nav>
+            </div>
+            <div id="divTextFooter">
+                <nav>
+                    <ul>
+                        <ul>
+                            <li>
+                                <a href="">ABOUT</a>
+                            </li>
+    
+                            <li>
+                                <a href="">ARTICLES</a>
+                            </li>
+    
+                            <li>
+                                <a href="">SUBSCRIBE</a>
+                            </li>
+                        </ul>
                 </nav>
             </div>
         </footer>

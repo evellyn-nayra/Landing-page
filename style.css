@@ -1,5 +1,7 @@
 *{
 padding: 0;
+text-decoration: none;
+list-style: none;
 }
 
 body{
@@ -7,16 +9,38 @@ body{
 }
 
 header{
-    padding: 1.5rem;
     display: flex;
     justify-content: space-between;
 }
-
-header div ul{
+header div nav ul{
     display: flex;
-    text-decoration: none;
-    list-style: none;      
-    
+    justify-content: space-between;
+}
+#navegacao nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#navegacao nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+#navegacao nav ul li a{
+    color: black;
+}
+
+#navegacao nav a button{
+    padding: 7px;
+    background-color: transparent;
+    width: 8rem;
+    cursor: pointer;
+}
+
+#navegacao nav a button:hover{
+    background-color: rgba(255, 228, 152, 0.836);
+    transition: 0.8s;
 }
 
 .sessao1{
@@ -38,8 +62,11 @@ font-size: 1.3rem;
 text-align: center;
 }
 
-.sessao1 hr{
-    font-size: 2px;
+.line{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 50px;
+    margin: 20px auto;
 }
 
 .sessao2{
@@ -115,12 +142,62 @@ text-align: center;
     text-align: end;
 }
 
-.sessao4{
-    padding: 4.5rem;
+
+#sessao4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    background-color: aliceblue;
     text-align: center;
+    
+}
+
+#email{
+    padding: 0.8rem;
+    margin-top: 30px;    
+    width: 20rem;
+}
+
+#botao{
+    padding: 1rem;
+    background-color: transparent;
+    width: 10rem;
+    cursor: pointer;
+}
+
+#botao:hover{
+    background-color: rgba(255, 228, 152, 0.836);
+    transition: 0.8s;
 }
 
 footer{
+    padding: 2rem;
     display: flex;
     justify-content: space-between;
+   
 }
+
+footer div nav ul{
+    display: flex;
+}
+
+#divIcon nav ul{
+    gap: 5px;
+}
+#divIcon nav ul li a i{
+    color: white;
+    background-color: rgb(5, 5, 5);
+    padding: 0.7rem;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#divTextFooter nav ul{
+    gap: 3rem;
+}
+
+#divTextFooter nav ul li a{
+    color: black;
+}
+
